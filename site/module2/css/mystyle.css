@@ -74,7 +74,7 @@ body {
 
 }
 
-div.label  { 
+.label { 
 	color: white;
 	font-weight: bold;
 	border-left: 1px solid black;
@@ -118,15 +118,15 @@ MEDIA QUERIES FOR TABLET AND SMARTPHONE VIEWS
 @media screen and (min-width: 768px) and (max-width: 991px) {
  
  .left-md {
- 	width: 48.5%;
+ 	width: 48.9%;
  	float: left;
- 	margin-right: 2px;
+ 	margin-right: 1px;
  }
 
  .middle-md {
- 	width: 48.5%;
+ 	width: 48.9%;
  	float: right;
- 	margin-left: 2px;
+ 	margin-left: 1px;
  }
 
  .right-md {
