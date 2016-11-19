@@ -36,7 +36,6 @@ body {
 	padding: 5px;
 	align-content: center;
 	margin-right: 5px;
-	float: center;
 	padding: 5px;
 }
 
@@ -56,7 +55,7 @@ body {
 .left {
 	background: #F8F8F8;
 	clear: left;
-	margin-right: 5px;}
+	margin-right: 5px;
 }
 
 
@@ -130,8 +129,9 @@ MEDIA QUERIES FOR TABLET AND SMARTPHONE VIEWS
  }
 
  .right-md {
- 	width: 99%;
- }
+ 	width: 99.5%;
+ 	margin-right: 5px;
+  }
 
 	}
 	
@@ -147,6 +147,8 @@ MEDIA QUERIES FOR TABLET AND SMARTPHONE VIEWS
 	.middle-sm {
 		width: auto;
 		float: none;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 	
 	.right-sm {
