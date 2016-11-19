@@ -42,9 +42,8 @@ body {
 
 .left, .middle, .right {
 	margin-bottom: 5px;
-	border: 1px solid grey;
 	width: 32%;
-	border: 1px solid grey;
+	border: 1px solid black;
 	margin-left: 5px;
 	padding: 10px;
 	margin-right: 5px;
