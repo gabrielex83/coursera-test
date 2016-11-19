@@ -1,0 +1,156 @@
+/************************************************
+Assignment 2 CSS by Gabriele Profita
+*************************************************/
+
+* {  box-sizing: border-box; }
+
+body { 
+	font-family: "Open Sans", sans-serif;
+	color: #666;
+	margin-left:0px;
+	margin-right: 0px;
+ }
+
+
+@font-face {
+    font-family: "myfont";
+    src: url(sansation_light.woff);
+}
+
+/* GENERAL STRUCTURE */
+
+
+#top {
+	font-family: myfont;
+	clear: both;
+	align-content: center;
+	text-align: center;
+	width: 100%;
+	margin: 5px;
+	padding: 10px;
+	margin-bottom: 5px;
+	text-shadow: 2px 2px 2px #BBBBBB;
+ }
+
+#content { 
+	padding: 5px;
+	align-content: center;
+	margin-right: 5px;
+	float: center;
+	padding: 5px;
+}
+
+
+.left, .middle, .right {
+	margin-bottom: 5px;
+	border: 1px solid grey;
+	width: 32%;
+	border: 1px solid grey;
+	margin-left: 5px;
+	padding: 10px;
+	margin-right: 5px;
+	float: left;
+	box-shadow: 3px 3px 3px #CCCCCC;
+}
+
+.left {
+	background: #F8F8F8;
+	clear: left;
+	margin-right: 5px;}
+}
+
+
+.middle {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+.right {
+	background: #F8F8F8;
+	margin-right: 5px;
+	margin-left: 5px;
+
+}
+
+div.label  { 
+	color: white;
+	font-weight: bold;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	position: relative;
+	float: right;
+	padding-right: 10px;
+	margin-bottom: 10px ;
+	margin-right: -10px;
+	width: 120px;
+	top: -10px;
+	 }
+
+
+.green {
+	background-color: green;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.blue {
+	background-color: blue;
+}
+
+p::first-letter {
+	font-family: myfont;
+	font-size: 1.5em;
+	color:red;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #BBBBBB;
+}
+
+/**********************************************
+MEDIA QUERIES FOR TABLET AND SMARTPHONE VIEWS
+***********************************************/
+
+/* Tablet view for 768 px to 991px  */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+ 
+ .left-md {
+ 	width: 48.5%;
+ 	float: left;
+ 	margin-right: 2px;
+ }
+
+ .middle-md {
+ 	width: 48.5%;
+ 	float: right;
+ 	margin-left: 2px;
+ }
+
+ .right-md {
+ 	width: 99%;
+ }
+
+	}
+	
+
+/* smartphone view for 767px or less*/
+ @media screen and (max-width: 767px) {
+
+	.left-sm {
+		width: auto;
+		float: none;
+			}
+	
+	.middle-sm {
+		width: auto;
+		float: none;
+	}
+	
+	.right-sm {
+		width: auto;
+		float: none;
+	}
+
+} 
