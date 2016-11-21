@@ -2,17 +2,28 @@
 	<html lang="en">
 		<head>
 			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial/scale=1">
+			<!-- <link rel="stylesheet" href="css/mystyle.css"> -->
 			<title>Hello Coursera from Gabriele</title>
 			<style>
 
 				body {
-					font-family: "segoe ui",helvetica,verdana, sans-serif;
-				}
+					font-family: helvetica,verdana, sans-serif;
+					margin-left:0px;
+					margin-right: 0px;
+					}
 
-				* {
-					box-sizing: border-box;
-					//margin-right: 0px;
-				}
+
+		/* MOBILE VIEW
+			@media (max-width: 767px) {}		
+			*?
+
+		/* TABLET VIEW	
+			@media (min-width: 768px) and (max-width: 991px) {}
+			
+
+			@media (min-width: 992px) {
+
 
 				h1 {
 					color: black;
@@ -21,14 +32,19 @@
 					text-shadow: 2px 2px 3px #CCCCCC;
 					}
 
-				section {
+				#container {
+					padding: 5px;
+					width: 960px;
+					margin: 20px auto;
+				}
+
+
+				 /* div.col1{
 					color: #9A9ABA;
 					background-color: #EFEFFF;
 					font-size: 20px;
-					width: 425px;
 					margin: 0 auto;
 					margin-top: 10px;
-					padding: 15px;
 					border-style: solid;
 					border-left-style: solid;
 					border-right-style: solid;
@@ -36,27 +52,28 @@
 					border-color: black;
 					box-shadow: 3px 3px 3px #CCCCCC;
 					float: left;
-					margin-left: 20px;
-					width: 32%;
-					//position: relative;
-					}
+					width: 33.33%;
+					} */
 
 				h2 {
 					color: black;
 					text-align: center;
 					font-size: 1.5em;
 					font-weight: bold;
-					margin-left: 70%;
 					border-width: 1px;
 					border-style: solid;
-					margin-right: -16px;
+					margin-right: 10px%;
 					margin-top: -16px;
 					border-bottom-left-radius: 7px;
-					//position: absolute;
-					//top: -25px;
-					//right: 0px;
+					width: 6em;
 					overflow: hidden;
 					}
+
+				p {
+					width: 95%;
+					margin-right:auto;
+					margin-left: auto;
+				}	
 
 				.label1 {
 					background-color: yellow;
@@ -68,28 +85,57 @@
 
 				.label3 {
 					background-color: orange;
-				}	
+								}
 
+				
+				/* per desktop grandi */
+				div.col3, div.col1 {
+					width: 32%;
+					float: left;
+					color: #9A9ABA;
+					background-color: #EFEFFF;
+					font-size: 20px;
+					margin: 10px 10px 10px 10px;
+					margin-top: 10px;
+					border-style: solid;
+					border-left-style: solid;
+					border-right-style: solid;
+					border-width: 1px;
+					border-color: black;
+					box-shadow: 3px 3px 3px #CCCCCC;
+				}
+
+				#gallery {
+					width: 95%;
+				}
+
+
+			}
 			</style>
 		</head>
 		<body>
-		<header>
-			<h1> Hello Coursera from Gabriele</h1>
-		</header>
-			<section id="intro">
+			<header>
+				<h1> Hello Coursera from Gabriele</h1>
+			</header>
+
+			<div id="container">
+
+				<div class="col1">
 					<h2 class="label1">Intro</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus lectus. Phasellus aliquet orci sed sagittis malesuada. Morbi vestibulum dui eget fermentum rhoncus. Sed commodo, tellus id congue interdum, urna ipsum elementum erat, eu iaculis erat mi id nulla. Praesent tempus, lacus eget vehicula elementum, nisl libero blandit erat, quis fringilla dolor orci vitae quam. Vestibulum malesuada convallis tellus eget auctor. Suspendisse pulvinar sollicitudin velit quis suscipit. Phasellus sed velit ut magna auctor consequat. Fusce viverra nulla sed orci cursus maximus. Vivamus at nunc neque. Nulla lobortis mattis est in condimentum. Curabitur fermentum eu odio a gravida. </p>
-			</section>
+				</div>
 
-			<section id="about">
-				<h2 class="label2">About</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus lectus. Phasellus aliquet orci sed sagittis malesuada. Morbi vestibulum dui eget fermentum rhoncus. Sed commodo, tellus id congue interdum, urna ipsum elementum erat, eu iaculis erat mi id nulla. Praesent tempus, lacus eget vehicula elementum, nisl libero blandit erat, quis fringilla dolor orci vitae quam. Vestibulum malesuada convallis tellus eget auctor. Suspendisse pulvinar sollicitudin velit quis suscipit. Phasellus sed velit ut magna auctor consequat. Fusce viverra nulla sed orci cursus maximus. Vivamus at nunc neque. Nulla lobortis mattis est in condimentum. Curabitur fermentum eu odio a gravida. </p>
-			</section>
+				<div class="col1">
+					<h2 class="label2">About</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus lectus. Phasellus aliquet orci sed sagittis malesuada. Morbi vestibulum dui eget fermentum rhoncus. Sed commodo, tellus id congue interdum, urna ipsum elementum erat, eu iaculis erat mi id nulla. Praesent tempus, lacus eget vehicula elementum, nisl libero blandit erat, quis fringilla dolor orci vitae quam. Vestibulum malesuada convallis tellus eget auctor. Suspendisse pulvinar sollicitudin velit quis suscipit. Phasellus sed velit ut magna auctor consequat. Fusce viverra nulla sed orci cursus maximus. Vivamus at nunc neque. Nulla lobortis mattis est in condimentum. Curabitur fermentum eu odio a gravida. </p>
+				</div>
 
-			<section id="gallery">
-				<h2 class="label3">Gallery</h2>
-				</p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus lectus. Phasellus aliquet orci sed sagittis malesuada. Morbi vestibulum dui eget fermentum rhoncus. Sed commodo, tellus id congue interdum, urna ipsum elementum erat, eu iaculis erat mi id nulla. Praesent tempus, lacus eget vehicula elementum, nisl libero blandit erat, quis fringilla dolor orci vitae quam. Vestibulum malesuada convallis tellus eget auctor. Suspendisse pulvinar sollicitudin velit quis suscipit. Phasellus sed velit ut magna auctor consequat. Fusce viverra nulla sed orci cursus maximus. Vivamus at nunc neque. Nulla lobortis mattis est in condimentum. Curabitur fermentum eu odio a gravida.</p> 
-			</section>
+				<div class="col3" ">
+					<h2 class="label3">Gallery</h2>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus lectus. Phasellus aliquet orci sed sagittis malesuada. Morbi vestibulum dui eget fermentum rhoncus. Sed commodo, tellus id congue interdum, urna ipsum elementum erat, eu iaculis erat mi id nulla. Praesent tempus, lacus eget vehicula elementum, nisl libero blandit erat, quis fringilla dolor orci vitae quam. Vestibulum malesuada convallis tellus eget auctor. Suspendisse pulvinar sollicitudin velit quis suscipit. Phasellus sed velit ut magna auctor consequat. Fusce viverra nulla sed orci cursus maximus. Vivamus at nunc neque. Nulla lobortis mattis est in condimentum. Curabitur fermentum eu odio a gravida.</p> 
+				</div>
+
+			</div>	
 		</body>
 </html>
