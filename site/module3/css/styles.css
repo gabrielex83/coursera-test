@@ -28,6 +28,7 @@ body {
 		margin-top: 0;
 		margin-bottom: 0;
 		line-height: .75;
+		clear: both;
 	}
 
 	.navbar-brand a:hover, .navbar-brand a:focus {
@@ -37,7 +38,7 @@ body {
 
 	 #nav-list {
 	 	margin-top: 10px;
-	 	background-color: #FFFFFF;
+	 	background-color: #F7E307;
 	 }
 
 	 #nav-list a {
@@ -47,11 +48,11 @@ body {
 	 }
 
 	.navbar-default .navbar-nav .active a{
-		background-color: #FFEC00; 
+		background-color: #FFE989; 
 	 }
 
 	 #nav-list a:hover {
-	 	background-color: #FFEC00;
+	 	background-color: #FFE989;
 	 }
 
 
@@ -76,8 +77,13 @@ body {
 		background-color: #6580B3;
 		border: 3px;
 		padding: 5px 15px 10px 15px;
+		border-radius: 15px;
+		box-shadow: 5px 5px 5px #222;
 			}
 
+	h2, h3 {
+		font-family: "Berkshire Swash", cursive;
+	}
 	.col-md-12 {
 		margin-top: 25px;
 		margin-bottom: 25px;
@@ -100,17 +106,29 @@ body {
 /************* LARGE DEVICES ONLY ********************/
 	 @media (min-width: 1200px) {
 
+	 #header-nav {
+	 	padding-bottom: 2em;
+	 }
+
 	 }
 
 /************* MEDIUM DEVICES ONLY ********************/
 	 @media (min-width: 992px) and (max-width: 1199px) {
+
+	 	 #header-nav {
+	 	padding-bottom: 2em;
+	 }	
 	 }
 
 
 /************* SMALL DEVICES ONLY ********************/
 	 @media (min-width: 768px) and (max-width: 991px) {
 	 	  
+	 	  	 	 #header-nav {
+	 	padding-bottom: 2em;
+	 }	
 	 }
+
 
 /************* EXTRA SMALL DEVICES ONLY ********************/
 @media (max-width: 767px) {
