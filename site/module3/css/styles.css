@@ -83,6 +83,11 @@ body {
 		margin-bottom: 25px;
 	}
 
+	.col-xs-12 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
 
 	/* END HOME PAGE */
 
