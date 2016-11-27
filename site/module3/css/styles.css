@@ -78,6 +78,11 @@ body {
 		padding: 5px 15px 10px 15px;
 			}
 
+	.col-md-12 {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
 
 	/* END HOME PAGE */
 
