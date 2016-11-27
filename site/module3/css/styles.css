@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #476094;
+	font-family:  "Oxygen", sans-serif;
+	}
+
+/** HEADER **/
+	#header-nav {
+		background-color: #F6B319;
+		border-radius: 0;
+		border: 0;
+	}
+
+	.navbar-brand {
+		padding-top: 25px;
+	}
+
+	.navbar-brand h1 { /*Restaurant name */
+		font-family: "Berkshire Swash", cursive;
+		color: #476094;
+		font-size: 3em;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #222;
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: .75;
+	}
+
+	.navbar-brand a:hover, .navbar-brand a:focus {
+		text-decoration: none;
+	}
+
+
+	 #nav-list {
+	 	margin-top: 10px;
+	 	background-color: #FFFFFF;
+	 }
+
+	 #nav-list a {
+	 	color: #476094;
+	 	text-align: center;
+	 	border-top: 1px solid orange;
+	 }
+
+	.navbar-default .navbar-nav .active a{
+		background-color: #FFEC00; 
+	 }
+
+	 #nav-list a:hover {
+	 	background-color: #FFEC00;
+	 }
+
+
+	 #nav-list a span {
+	 	font-size: 1.8em;
+	 }
+
+	 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	 	border: 1px solid #476094;
+	 }
+
+	 .navbar-header button.navbar-toggle {
+	 	clear: both;
+	 	margin-top: -30px;
+	 }
+
+	 /* END HEADER */
+
+	/* HOME PAGE */
+
+	#chicken-tile, #beef-tile, #sushi-tile {
+		background-color: #6580B3;
+		border: 3px;
+		padding: 5px 15px 10px 15px;
+			}
+
+
+	/* END HOME PAGE */
+
+
+	/* FOOTER */
+
+	
+	/* END FOOTER */
+
+/************* LARGE DEVICES ONLY ********************/
+	 @media (min-width: 1200px) {
+
+	 }
+
+/************* MEDIUM DEVICES ONLY ********************/
+	 @media (min-width: 992px) and (max-width: 1199px) {
+	 }
+
+
+/************* SMALL DEVICES ONLY ********************/
+	 @media (min-width: 768px) and (max-width: 991px) {
+	 	  
+	 }
+
+/************* EXTRA SMALL DEVICES ONLY ********************/
+@media (max-width: 767px) {
+
+  /* HEADER */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /* Home Page */
+
+ /* End Home Page */
+
+
+ /* Footer */
+
+ /* End Footer */
+
+ /* Single category page */
+
+
+}
+
+/************* SUPER DUPER SMALL DEVICES ONLY ********************/
+@media (max-width: 479px) {
+
+	.navbar-brand h1 { /* Restaurant name */
+		padding-top: 10px;
+	    font-size: 10vw; /* 1vw = 1% of viewport width */
+  }
+		
+		.col-xxs-12 {
+			position: relative;
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+			float: left;
+			width: 100%;
+		}
+	 }
