@@ -79,11 +79,17 @@ body {
 		padding: 5px 15px 10px 15px;
 		border-radius: 15px;
 		box-shadow: 5px 5px 5px #222;
-			}
+	}
+
+	#food {
+		margin-top: 50px;
+	}
 
 	h2, h3 {
 		font-family: "Berkshire Swash", cursive;
 	}
+
+
 	.col-md-12 {
 		margin-top: 25px;
 		margin-bottom: 25px;
